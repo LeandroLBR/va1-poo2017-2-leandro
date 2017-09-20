@@ -2,6 +2,8 @@ package br.unincor.controle;
 
 import java.util.List;
 
+import br.unincor.exception.NSusInvalidoException;
+import br.unincor.model.Paciente;
 import br.unincor.model.Pokemon;
 
 public class Operacoes {
@@ -37,5 +39,8 @@ public class Operacoes {
 		}
 		return pokemonMenorCp;
 	}
-
+	private void EvolucaoException(Pokemon p) throws EvolucaoException {
+		String cp = cp.getcp().toString();
+		
+	}
 }
